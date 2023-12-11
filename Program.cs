@@ -25,11 +25,13 @@ FileReader fr = new FileReader();
 
 
 
-var SampleInputDay2Part1 = await fr.ReadFileAsync("Input/SampleInputDay2Part1.txt");
+var SampleInputDay2 = await fr.ReadFileAsync("Input/SampleInputDay2Part1.txt");
 
-var InputDay2Part1 = await fr.ReadFileAsync("Input/InputDay2Part1.txt");
+var InputDay2 = await fr.ReadFileAsync("Input/InputDay2Part1.txt");
 
 var day2 = new Day2();
 
-day2.SolvePartOne(InputDay2Part1);
+// day2.SolvePartOne(InputDay2);
+
+day2.SolvePartTwo(InputDay2);
 
